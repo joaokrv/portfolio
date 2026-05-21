@@ -1,0 +1,107 @@
+@import '@fontsource/space-grotesk/400.css';
+@import '@fontsource/space-grotesk/500.css';
+@import '@fontsource/space-grotesk/600.css';
+@import '@fontsource/space-grotesk/700.css';
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+
+@import "tailwindcss";
+
+@theme {
+  --font-grotesk: 'Space Grotesk', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+
+  --color-bg-base: #08080F;
+  --color-bg-surface: #0F0F1A;
+  --color-bg-subtle: #16162A;
+  --color-text-primary: #F0EEF8;
+  --color-text-secondary: #9490B5;
+  --color-text-muted: #4E4A6A;
+  --color-purple-main: #7C3AED;
+  --color-purple-light: #A78BFA;
+  --color-purple-glow: #6D28D9;
+  --color-border: #1E1E35;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+:root.light {
+  color-scheme: light;
+  --color-bg-base: #F5F4FB;
+  --color-bg-surface: #FFFFFF;
+  --color-bg-subtle: #EDE9FB;
+  --color-text-primary: #1A1730;
+  --color-text-secondary: #4A4468;
+  --color-text-muted: #9490B5;
+  --color-purple-main: #6D28D9;
+  --color-purple-light: #7C3AED;
+  --color-purple-glow: #5B21B6;
+  --color-border: #DDD8F5;
+}
+
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg-base);
+  color: var(--color-text-primary);
+  font-family: var(--font-inter);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 300ms cubic-bezier(0.22, 1, 0.36, 1), color 300ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+::selection {
+  background-color: var(--color-purple-main);
+  color: #fff;
+}
+
+:root:not(.light) body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-size: 200px 200px;
+}
+
+
+
+#scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: linear-gradient(to right, var(--color-purple-glow), var(--color-purple-light));
+  z-index: 9999;
+  transition: width 80ms ease-out;
+  pointer-events: none;
+  opacity: 0.8;
+}
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 600ms cubic-bezier(0.22, 1, 0.36, 1), transform 600ms cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+
+.fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+  will-change: auto;
+}

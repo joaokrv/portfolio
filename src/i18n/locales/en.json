@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "available": "Open to opportunities",
+    "role": "Software Engineering student. Intern at",
+    "company": "Group Software",
+    "tagline": ". Focused on Java/Spring and Python. Studying architecture to understand how systems really work.",
+    "seeProjects": "View projects",
+    "contact": "Contact",
+    "location": "BH · Brazil",
+    "scroll": "Scroll",
+    "downloadCv": "Download CV"
+  },
+  "about": {
+    "label": "Who I am",
+    "title": "About me",
+    "p1": "I'm in the 6th semester of Software Engineering at UniBH and I work as a development intern at Group Software, where I use Java, Spring Boot, Angular and Flutter on real condominium management systems.",
+    "p2": "My focus is on Java/Spring and Python. I study software architecture because I want to understand the underlying processes — not just make things work, but understand why they work.",
+    "p3Start": "Outside of work, I build my own projects that I use every day. ",
+    "p3Highlight": "Equilibra, my personal finance system, is what best represents who I am as a developer.",
+    "stats": {
+      "projects": "Personal projects",
+      "semester": "Semester — Software Eng."
+    }
+  },
+  "experience": {
+    "label": "Path",
+    "title": "Experience & Education",
+    "professional": "Professional",
+    "academic": "Academic",
+    "groupRole": "Software Development Intern",
+    "groupCompany": "Group Software",
+    "groupDetail": "Building and maintaining ERP systems for condominium management using Java and Spring Boot on the backend. Developing and evolving interfaces with Angular and TypeScript. Mobile development with Flutter for the building manager app. Real product environment with code in production from day one.",
+    "groupPeriod": "Jul. 2025 — Present",
+    "unibhCourse": "Software Engineering",
+    "unibhInstitution": "UniBH (Centro Universitário de Belo Horizonte)",
+    "unibhDetail": "Studies focused on software development, systems architecture, databases, and requirements engineering.",
+    "unibhPeriod": "Aug. 2023 — 2027"
+  },
+  "skills": {
+    "label": "Skills",
+    "title": "Skills",
+    "subtitle": "What I use at work and on projects — focused on Java/Spring and Python.",
+    "work": "At work",
+    "personal": "On personal projects",
+    "soft": "Soft skills"
+  },
+  "projects": {
+    "label": "Portfolio",
+    "title": "Projects",
+    "subtitle": "What I built, why I built it, and what I used.",
+    "active": "Actively in development",
+    "academic": "Academic · Free APIs",
+    "liveDemo": "View Live",
+    "highlightsTitle": "Technical Highlights",
+    "items": {
+      "equilibra": {
+        "description": "Personal finance system that replaced my spreadsheet.",
+        "long": "Accounts, credit cards, invoices, transactions and investments — all in one place with real business rules. My family and I use it daily. Completely free.",
+        "highlights": [
+          "Lazy invoice creation — generated automatically on the first transaction of the month, no pre-allocation",
+          "Inline ghost closing — invoice status updated on query, without relying on a scheduled job",
+          "Daily scheduler with ShedLock — protected against duplicate execution across multiple instances",
+          "Optimistic Locking with @Version on accounts, cards and invoices — no pessimistic locks",
+          "Integration tests with Testcontainers and real PostgreSQL — no database mocks"
+        ]
+      },
+      "aican": {
+        "description": "AI-powered personalized workout plan generator.",
+        "long": "Integration with Google Gemini to generate workouts and nutrition suggestions based on the user's physical data and preferences. Free APIs.",
+        "highlights": [
+          "Asynchronous backend with FastAPI (Python 3.10+) and SQLAlchemy",
+          "Intelligent workout generation using Google Gemini 2.0 Flash API",
+          "Abuse prevention and security with Rate Limiting via SlowAPI"
+        ]
+      },
+      "mapa": {
+        "description": "Interactive navigation system for the university campus.",
+        "long": "Route calculation, location search, WhatsApp sharing and light/dark theme. Built to help freshmen and visitors find their way.",
+        "highlights": [
+          "Interactive campus visualization with Leaflet.js and OpenStreetMap",
+          "Dynamic route calculation using OpenRouteService API",
+          "Node.js backend deployed on Render and frontend hosted on Vercel"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Let's talk.",
+    "subtitle": "Open to opportunities and good conversations about tech. Send me an email — I reply fast.",
+    "or": "or"
+  },
+  "footer": {
+    "text": "Made by"
+  }
+}

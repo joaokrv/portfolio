@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "about": "Sobre",
+    "experience": "Experiência",
+    "skills": "Skills",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "hero": {
+    "available": "Disponível para oportunidades",
+    "role": "Estudante de Engenharia de Software. Estagiário na",
+    "company": "Group Software",
+    "tagline": ". Foco em Java/Spring e Python. Estudo arquitetura para entender como os sistemas realmente funcionam.",
+    "seeProjects": "Ver projetos",
+    "contact": "Contato",
+    "location": "BH · Brasil",
+    "scroll": "Scroll",
+    "downloadCv": "Download CV"
+  },
+  "about": {
+    "label": "Quem sou",
+    "title": "Sobre mim",
+    "p1": "Estou no 6º período de Engenharia de Software na UniBH e estagio como desenvolvedor na Group Software, onde trabalho com Java, Spring Boot, Angular e Flutter em sistemas reais de gestão condominial.",
+    "p2": "Meu foco está em Java/Spring e Python. Estudo arquitetura de software porque quero entender os processos por baixo — não apenas fazer funcionar, mas entender por que funciona.",
+    "p3Start": "Fora do trabalho, construo projetos próprios que uso no meu dia a dia. ",
+    "p3Highlight": "O Equilibra, meu sistema de controle financeiro, é o que mais representa quem eu sou como desenvolvedor.",
+    "stats": {
+      "projects": "Projetos próprios",
+      "semester": "Período — Eng. Software"
+    }
+  },
+  "experience": {
+    "label": "Trajetória",
+    "title": "Experiência & Formação",
+    "professional": "Profissional",
+    "academic": "Acadêmica",
+    "groupRole": "Estagiário de Desenvolvimento",
+    "groupCompany": "Group Software",
+    "groupDetail": "Desenvolvimento e manutenção de sistemas ERP para gestão condominial com Java e Spring Boot no backend. Construção e evolução de interfaces com Angular e TypeScript. Desenvolvimento mobile com Flutter para o app do síndico. Ambiente de produto real, com código em produção desde o início.",
+    "groupPeriod": "Jul. 2025 — Presente",
+    "unibhCourse": "Engenharia de Software",
+    "unibhInstitution": "UniBH (Centro Universitário de Belo Horizonte)",
+    "unibhDetail": "Estudo voltado para desenvolvimento de software, arquitetura de sistemas, banco de dados e engenharia de requisitos.",
+    "unibhPeriod": "Ago. 2023 — 2027"
+  },
+  "skills": {
+    "label": "Skills",
+    "title": "Skills",
+    "subtitle": "O que uso no trabalho e nos projetos — com foco em Java/Spring e Python.",
+    "work": "No trabalho",
+    "personal": "Nos projetos pessoais",
+    "soft": "Soft skills"
+  },
+  "projects": {
+    "label": "Portfólio",
+    "title": "Projetos",
+    "subtitle": "O que construí, por que construí e com o quê.",
+    "active": "Em desenvolvimento ativo",
+    "academic": "Acadêmico · APIs Gratuitas",
+    "liveDemo": "Ver ao vivo",
+    "highlightsTitle": "Destaques Técnicos",
+    "items": {
+      "equilibra": {
+        "description": "Sistema de controle financeiro pessoal que substituiu minha planilha.",
+        "long": "Contas, cartões, faturas, transações e investimentos — tudo no mesmo lugar, com regras reais. Eu e minha família usamos diariamente. Totalmente gratuito.",
+        "highlights": [
+          "Lazy creation de faturas — geradas automaticamente na primeira transação do mês, sem pré-alocação",
+          "Ghost closing inline — status da fatura atualizado na consulta, sem depender de job agendado",
+          "Scheduler diário com ShedLock — protegido contra execução duplicada em múltiplas instâncias",
+          "Optimistic Locking com @Version em contas, cartões e faturas — sem locks pessimistas",
+          "Testes de integração com Testcontainers e PostgreSQL real — sem mocks de banco",
+          "Frontend reativo com React 19, TypeScript, Tailwind 4 e Recharts"
+        ]
+      },
+      "aican": {
+        "description": "Gerador de planos de treino personalizados com IA.",
+        "long": "Integração com Google Gemini para criar treinos e sugestões nutricionais baseados nos dados físicos e preferências do usuário. APIs gratuitas.",
+        "highlights": [
+          "Backend assíncrono com FastAPI (Python 3.10+) e SQLAlchemy",
+          "Geração inteligente de treinos usando a API do Google Gemini 2.0 Flash",
+          "Controle de abuso e segurança com Rate Limiting via SlowAPI"
+        ]
+      },
+      "mapa": {
+        "description": "Sistema de navegação interativa para o campus universitário.",
+        "long": "Cálculo de rotas, busca de locais, compartilhamento via WhatsApp e tema claro/escuro. Desenvolvido para facilitar a vida de calouros e visitantes.",
+        "highlights": [
+          "Visualização interativa do campus com Leaflet.js e OpenStreetMap",
+          "Cálculo dinâmico de trajetos usando a API do OpenRouteService",
+          "Backend em Node.js com deploy na Render e frontend na Vercel"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "label": "Contato",
+    "title": "Vamos conversar.",
+    "subtitle": "Aberto a oportunidades e boas conversas sobre tecnologia. Me manda um email — respondo rápido.",
+    "or": "ou"
+  },
+  "footer": {
+    "text": "Feito por"
+  }
+}

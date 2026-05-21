@@ -1,0 +1,104 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "available": "Disponible para oportunidades",
+    "role": "Estudiante de Ingeniería de Software. Pasante en",
+    "company": "Group Software",
+    "tagline": ". Enfocado en Java/Spring y Python. Estudio arquitectura para entender cómo funcionan realmente los sistemas.",
+    "seeProjects": "Ver proyectos",
+    "contact": "Contacto",
+    "location": "BH · Brasil",
+    "scroll": "Scroll",
+    "downloadCv": "Descargar CV"
+  },
+  "about": {
+    "label": "Quién soy",
+    "title": "Sobre mí",
+    "p1": "Estoy en el 6º semestre de Ingeniería de Software en UniBH y trabajo como pasante de desarrollo en Group Software, donde uso Java, Spring Boot, Angular y Flutter en sistemas reales de gestión de condominios.",
+    "p2": "Mi enfoque está en Java/Spring y Python. Estudio arquitectura de software porque quiero entender los procesos subyacentes — no solo hacer que las cosas funcionen, sino entender por qué funcionan.",
+    "p3Start": "Fuera del trabajo, construyo mis propios proyectos que uso en mi día a día. ",
+    "p3Highlight": "Equilibra, mi sistema de finanzas personales, es lo que mejor representa quién soy como desarrollador.",
+    "stats": {
+      "projects": "Proyectos propios",
+      "semester": "Semestre — Ing. de Software"
+    }
+  },
+  "experience": {
+    "label": "Trayectoria",
+    "title": "Experiencia & Formación",
+    "professional": "Profesional",
+    "academic": "Académica",
+    "groupRole": "Pasante de Desarrollo",
+    "groupCompany": "Group Software",
+    "groupDetail": "Desarrollo y mantenimiento de sistemas ERP para gestión de condominios con Java y Spring Boot en el backend. Construcción y evolución de interfaces con Angular y TypeScript. Desarrollo mobile con Flutter para la app del administrador. Entorno de producto real, con código en producción desde el primer día.",
+    "groupPeriod": "Jul. 2025 — Presente",
+    "unibhCourse": "Ingeniería de Software",
+    "unibhInstitution": "UniBH (Centro Universitario de Belo Horizonte)",
+    "unibhDetail": "Estudios orientados al desarrollo de software, arquitectura de sistemas, bases de datos e ingeniería de requisitos.",
+    "unibhPeriod": "Ago. 2023 — 2027"
+  },
+  "skills": {
+    "label": "Habilidades",
+    "title": "Skills",
+    "subtitle": "Lo que uso en el trabajo y en los proyectos — enfocado en Java/Spring y Python.",
+    "work": "En el trabajo",
+    "personal": "En proyectos personales",
+    "soft": "Habilidades blandas"
+  },
+  "projects": {
+    "label": "Portafolio",
+    "title": "Proyectos",
+    "subtitle": "Lo que construí, por qué lo construí y con qué.",
+    "active": "En desarrollo activo",
+    "academic": "Académico · APIs Gratuitas",
+    "liveDemo": "Ver en vivo",
+    "highlightsTitle": "Aspectos Destacados",
+    "items": {
+      "equilibra": {
+        "description": "Sistema de finanzas personales que reemplazó mi hoja de cálculo.",
+        "long": "Cuentas, tarjetas, facturas, transacciones e inversiones — todo en un solo lugar, con reglas reales. Mi familia y yo lo usamos a diario. Completamente gratuito.",
+        "highlights": [
+          "Lazy creation de facturas — generadas automáticamente en la primera transacción del mes, sin pre-asignación",
+          "Ghost closing inline — estado de la factura actualizado en consulta, sin depender de job programado",
+          "Scheduler diario con ShedLock — protegido contra ejecución duplicada en múltiples instancias",
+          "Optimistic Locking con @Version en cuentas, tarjetas y facturas — sin locks pesimistas",
+          "Pruebas de integración con Testcontainers y PostgreSQL real — sin mocks de base de datos",
+          "Frontend reactivo con React 19, TypeScript, Tailwind 4 y Recharts"
+        ]
+      },
+      "aican": {
+        "description": "Generador de planes de entrenamiento personalizados con IA.",
+        "long": "Integración con Google Gemini para crear entrenamientos y sugerencias nutricionales basadas en los datos físicos y preferencias del usuario. APIs gratuitas.",
+        "highlights": [
+          "Backend asíncrono con FastAPI (Python 3.10+) y SQLAlchemy",
+          "Generación inteligente de rutinas utilizando la API de Google Gemini 2.0 Flash",
+          "Prevención de abusos y seguridad con límite de peticiones (Rate Limiting) vía SlowAPI"
+        ]
+      },
+      "mapa": {
+        "description": "Sistema de navegación interactiva para el campus universitario.",
+        "long": "Cálculo de rutas, búsqueda de lugares, compartir por WhatsApp y tema claro/escuro. Desarrollado para facilitar la vida de novatos y visitantes.",
+        "highlights": [
+          "Visualización interactiva del campus con Leaflet.js y OpenStreetMap",
+          "Cálculo dinámico de rutas mediante la API de OpenRouteService",
+          "Backend en Node.js alojado en Render y frontend alojado en Vercel"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "label": "Contacto",
+    "title": "Hablemos.",
+    "subtitle": "Abierto a oportunidades y buenas conversaciones sobre tecnología. Mándame un email — respondo rápido.",
+    "or": "o"
+  },
+  "footer": {
+    "text": "Hecho por"
+  }
+}

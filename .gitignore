@@ -1,0 +1,26 @@
+# Dependências
+node_modules
+
+# Build
+dist
+
+# Editor / OS
+.vscode
+.idea
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+
+# Markdown de contexto (não são conteúdo do portfólio)
+CLAUDE.md
+implementation_plan.md
+task.md
+walkthrough.md
+
+# Scripts auxiliares
+extract_files.py
