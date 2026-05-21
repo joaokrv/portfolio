@@ -7,6 +7,7 @@ export function Hero() {
   const { t } = useTranslation()
   const containerRef = useRef<HTMLDivElement>(null)
   const [imageError, setImageError] = useState(false)
+  const baseUrl = import.meta.env.BASE_URL
 
   useEffect(() => {
     const el = containerRef.current
@@ -98,7 +99,7 @@ export function Hero() {
             >
               {!imageError ? (
                 <img
-                  src="/portf-lio/assets/foto.png"
+                  src={`${baseUrl}assets/foto.png`}
                   alt="João Victor"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   onError={() => setImageError(true)}

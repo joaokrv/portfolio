@@ -4,6 +4,7 @@ import { GithubIcon, LinkedinIcon, InstagramIcon } from './SocialIcons'
 
 export function SocialDock() {
   const { t } = useTranslation()
+  const baseUrl = import.meta.env.BASE_URL
 
   const links = [
     {
@@ -25,7 +26,7 @@ export function SocialDock() {
       external: true,
     },
     {
-      href: '/portf-lio/assets/docs/curriculo.pdf',
+      href: `${baseUrl}assets/docs/curriculo.pdf`,
       download: 'curriculo-joao-victor.pdf',
       icon: <FileDown size={18} />,
       label: t('hero.downloadCv') || 'CV',
