@@ -21,6 +21,7 @@ CLAUDE.md
 implementation_plan.md
 task.md
 walkthrough.md
+.claude
 
 # Scripts auxiliares
 extract_files.py

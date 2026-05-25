@@ -73,21 +73,22 @@
         ]
       },
       "aican": {
-        "description": "Generador de planes de entrenamiento personalizados con IA.",
-        "long": "Integración con Google Gemini para crear entrenamientos y sugerencias nutricionales basadas en los datos físicos y preferencias del usuario. APIs gratuitas.",
+        "description": "Plataforma de entrenamiento y nutrición personalizada con IA.",
+        "long": "Frontend en React 19 + backend FastAPI integrado con Google Gemini 2.0 Flash. Genera planes de entrenamiento y nutrición con sistema de feedback adaptativo. Deploy en Vercel + Render.",
         "highlights": [
-          "Backend asíncrono con FastAPI (Python 3.10+) y SQLAlchemy",
-          "Generación inteligente de rutinas utilizando la API de Google Gemini 2.0 Flash",
-          "Prevención de abusos y seguridad con límite de peticiones (Rate Limiting) vía SlowAPI"
+          "Backend asíncrono con FastAPI y SQLAlchemy — deploy en Render",
+          "Frontend en React 19 con TypeScript, Vite y Recharts para visualización del progreso",
+          "Sanitización contra prompt injection en entradas del usuario",
+          "Rate Limiting via SlowAPI — protección contra abuso de la API de IA"
         ]
       },
       "mapa": {
         "description": "Sistema de navegación interactiva para el campus universitario.",
-        "long": "Cálculo de rutas, búsqueda de lugares, compartir por WhatsApp y tema claro/escuro. Desarrollado para facilitar la vida de novatos y visitantes.",
+        "long": "Cálculo de rutas, búsqueda de lugares, compartir por WhatsApp y tema claro/oscuro. Desarrollado para facilitar la vida de novatos y visitantes. Deploy activo en Vercel.",
         "highlights": [
           "Visualización interactiva del campus con Leaflet.js y OpenStreetMap",
-          "Cálculo dinámico de rutas mediante la API de OpenRouteService",
-          "Backend en Node.js alojado en Render y frontend alojado en Vercel"
+          "Cálculo dinámico de rutas via OpenRouteService API",
+          "Backend Express en Render + frontend en Vercel — deploy activo"
         ]
       }
     }

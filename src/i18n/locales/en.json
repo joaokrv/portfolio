@@ -72,21 +72,22 @@
         ]
       },
       "aican": {
-        "description": "AI-powered personalized workout plan generator.",
-        "long": "Integration with Google Gemini to generate workouts and nutrition suggestions based on the user's physical data and preferences. Free APIs.",
+        "description": "AI-powered personalized training and nutrition platform.",
+        "long": "React 19 frontend + FastAPI backend integrated with Google Gemini 2.0 Flash. Generates workout plans and nutrition suggestions with an adaptive feedback system. Deployed on Vercel + Render.",
         "highlights": [
-          "Asynchronous backend with FastAPI (Python 3.10+) and SQLAlchemy",
-          "Intelligent workout generation using Google Gemini 2.0 Flash API",
-          "Abuse prevention and security with Rate Limiting via SlowAPI"
+          "Async backend with FastAPI and SQLAlchemy — deployed on Render",
+          "React 19 frontend with TypeScript, Vite and Recharts for progress visualization",
+          "Prompt injection sanitization on user inputs",
+          "Rate Limiting via SlowAPI — protection against AI API abuse"
         ]
       },
       "mapa": {
         "description": "Interactive navigation system for the university campus.",
-        "long": "Route calculation, location search, WhatsApp sharing and light/dark theme. Built to help freshmen and visitors find their way.",
+        "long": "Route calculation, location search, WhatsApp sharing and light/dark theme. Built to help freshmen and visitors find their way. Live on Vercel.",
         "highlights": [
           "Interactive campus visualization with Leaflet.js and OpenStreetMap",
-          "Dynamic route calculation using OpenRouteService API",
-          "Node.js backend deployed on Render and frontend hosted on Vercel"
+          "Dynamic route calculation via OpenRouteService API",
+          "Express backend on Render + frontend on Vercel — live deployment"
         ]
       }
     }

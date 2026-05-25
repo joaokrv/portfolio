@@ -73,21 +73,22 @@
         ]
       },
       "aican": {
-        "description": "Gerador de planos de treino personalizados com IA.",
-        "long": "Integração com Google Gemini para criar treinos e sugestões nutricionais baseados nos dados físicos e preferências do usuário. APIs gratuitas.",
+        "description": "Plataforma de treino e nutrição personalizada com IA.",
+        "long": "Frontend em React 19 + backend FastAPI integrado ao Google Gemini 2.0 Flash. Gera planos de treino e nutrição com sistema de feedback adaptativo. Deploy em Vercel + Render.",
         "highlights": [
-          "Backend assíncrono com FastAPI (Python 3.10+) e SQLAlchemy",
-          "Geração inteligente de treinos usando a API do Google Gemini 2.0 Flash",
-          "Controle de abuso e segurança com Rate Limiting via SlowAPI"
+          "Backend assíncrono com FastAPI e SQLAlchemy — deploy na Render",
+          "Frontend em React 19 com TypeScript, Vite e Recharts para visualização de progresso",
+          "Sanitização contra prompt injection nas entradas do usuário",
+          "Rate Limiting via SlowAPI — proteção contra abuso da API de IA"
         ]
       },
       "mapa": {
         "description": "Sistema de navegação interativa para o campus universitário.",
-        "long": "Cálculo de rotas, busca de locais, compartilhamento via WhatsApp e tema claro/escuro. Desenvolvido para facilitar a vida de calouros e visitantes.",
+        "long": "Cálculo de rotas, busca de locais, compartilhamento via WhatsApp e tema claro/escuro. Desenvolvido para facilitar a vida de calouros e visitantes. Deploy ativo na Vercel.",
         "highlights": [
           "Visualização interativa do campus com Leaflet.js e OpenStreetMap",
-          "Cálculo dinâmico de trajetos usando a API do OpenRouteService",
-          "Backend em Node.js com deploy na Render e frontend na Vercel"
+          "Cálculo dinâmico de rotas via OpenRouteService API",
+          "Backend Express no Render + frontend na Vercel — deploy ativo"
         ]
       }
     }

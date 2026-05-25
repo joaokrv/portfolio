@@ -43,19 +43,22 @@ export const projects: Project[] = [
   {
     id: 'aican',
     name: 'AICan',
-    description: 'Gerador de planos de treino personalizados com IA.',
+    description: 'Plataforma de treino e nutrição personalizada com IA.',
     longDescription:
-      'Integração com Google Gemini para criar treinos e sugestões nutricionais baseados nos dados físicos e preferências do usuário. APIs gratuitas.',
+      'Frontend em React 19 + backend FastAPI integrado ao Google Gemini 2.0 Flash. Gera planos de treino e nutrição com sistema de feedback adaptativo. Deploy em Vercel + Render.',
     status: 'academic',
-    stack: ['Python', 'FastAPI', 'PostgreSQL', 'Google Gemini', 'JavaScript', 'HTML', 'CSS'],
+    stack: ['React', 'TypeScript', 'Python', 'FastAPI', 'PostgreSQL', 'Google Gemini', 'Recharts'],
     links: {
-      github: 'https://github.com/joaokrv/backend_ai_can',
+      githubFrontend: 'https://github.com/joaokrv/front_ai_can',
+      githubBackend: 'https://github.com/joaokrv/backend_ai_can',
+      live: 'https://aican-seven.vercel.app/',
     },
     featured: false,
     highlights: [
-      'Backend assíncrono com FastAPI (Python 3.10+) e SQLAlchemy',
-      'Geração inteligente de treinos usando a API do Google Gemini 2.0 Flash',
-      'Controle de abuso e segurança com Rate Limiting via SlowAPI'
+      'Backend assíncrono com FastAPI e SQLAlchemy — deploy na Render',
+      'Frontend em React 19 com TypeScript, Vite e Recharts para visualização de progresso',
+      'Sanitização contra prompt injection nas entradas do usuário',
+      'Rate Limiting via SlowAPI — proteção contra abuso da API de IA',
     ],
   },
   {
@@ -63,17 +66,18 @@ export const projects: Project[] = [
     name: 'Mapa Faculdade',
     description: 'Sistema de navegação interativa para o campus universitário.',
     longDescription:
-      'Cálculo de rotas, busca de locais, compartilhamento via WhatsApp e tema claro/escuro. Desenvolvido para facilitar a vida de calouros e visitantes.',
+      'Cálculo de rotas, busca de locais, compartilhamento via WhatsApp e tema claro/escuro. Desenvolvido para facilitar a vida de calouros e visitantes. Deploy ativo na Vercel.',
     status: 'academic',
-    stack: ['JavaScript', 'Leaflet.js', 'OpenStreetMap', 'OpenRouteService', 'Node.js', 'CSS'],
+    stack: ['JavaScript', 'Leaflet.js', 'OpenStreetMap', 'OpenRouteService', 'Node.js', 'Express'],
     links: {
       github: 'https://github.com/joaokrv/mapa',
+      live: 'https://mapa-two.vercel.app',
     },
     featured: false,
     highlights: [
       'Visualização interativa do campus com Leaflet.js e OpenStreetMap',
-      'Cálculo dinâmico de trajetos usando a API do OpenRouteService',
-      'Backend em Node.js com deploy na Render e frontend na Vercel'
+      'Cálculo dinâmico de rotas via OpenRouteService API',
+      'Backend Express no Render + frontend na Vercel — deploy ativo',
     ],
   },
 ]
